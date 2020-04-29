@@ -14,6 +14,10 @@ No terminal execute: python3 gerador_de_grafico mundo para ver o gráfico do Mun
 
 E assim por diante.
 
+Para captar dados de outros países, baixe o corona.py no meu repositório Analise-Corona, e deixe executando no crontab.
+
+Siga os mesmos procedimentos citados acima e faça o gráfico do país que quiser.
+
 
 
 
