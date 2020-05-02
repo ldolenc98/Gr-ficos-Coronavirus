@@ -40,7 +40,7 @@ def eixo_y_casos(lista_casos,i, y1, dias):
 	
 	elif i == (dias - 2):
 		
-		return f' <text x="50" y="{y1+5}" font-size="16">{lista_casos[dias-2]}</text>'
+		return f' <text x="1070" y="{y1+5}" font-size="16">{lista_casos[dias-2]}</text>'
 
 	else:
 
@@ -54,7 +54,7 @@ def eixo_y_mortes(lista_mortes,i, y3, dias):
 	
 	elif i == (dias - 2):
 		
-		return f' <text x="50" y="{y3}" font-size="14">{lista_mortes[dias-2]}</text>'
+		return f' <text x="1070" y="{y3}" font-size="14">{lista_mortes[dias-2]}</text>'
 
 	else:
 
@@ -68,7 +68,7 @@ def eixo_y_recuperados(lista_recuperados,i, y5, dias):
 	
 	elif i == (dias - 2):
 		
-		return f' <text x="50" y="{y5+5}" font-size="16">{lista_recuperados[dias-2]}</text>'
+		return f' <text x="1070" y="{y5+5}" font-size="16">{lista_recuperados[dias-2]}</text>'
 
 	else:
 
